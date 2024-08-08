@@ -1,0 +1,32 @@
+name: core_ui
+description: A new Flutter project.
+version: 0.0.1
+
+publish_to: none
+
+environment:
+  sdk: ">=3.4.0 <3.5.0"
+  flutter: ">=3.22.0 <3.23.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  app_theme:
+    path: ../app_theme
+
+  domain:
+    path: ../domain
+
+  tab_controller:
+    path: ../tab_controller
+
+  utilities:
+    path: ../utilities
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
